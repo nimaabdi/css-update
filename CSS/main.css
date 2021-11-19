@@ -1,0 +1,80 @@
+/*This is the base css file*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: rgb(207, 198, 198);
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    text-align: left;
+  }
+  .navbar {
+    background-color: #7e57c2;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    position: relative;
+    opacity: 0.8;
+    width: 100%;
+  }
+  
+  .nav-link {
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin: 0 0.5em;
+    padding: 0.2em;
+    transition: ease-out 1s all;
+  }
+  
+  .nav-link:hover {
+    background-color: aqua;
+  }
+  
+  .social {
+    color: rgb(7, 7, 63);
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  
+  .image {
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+    text-align: right;
+}
+
+.caption {
+  width: 20em; 
+  text-align: left;
+
+}
+
+h1 {
+    font-size: 23px;
+}
+
+  
+footer{
+    background-color:#5f5fc4
+}
+div{
+    color: black;
+    text-align: center;
+    font-size: 00.5cm;
+    
+}
